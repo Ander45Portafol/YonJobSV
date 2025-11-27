@@ -198,7 +198,7 @@ import {
 
 const userNavigation = [
   { name: "Your profile", href: "#" },
-  { name: "Sign out", href: "#" },
+  { name: "Sign out", href: "/login" },
 ];
 
 const sidebarOpen = ref(false);
