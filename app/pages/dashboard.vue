@@ -17,7 +17,7 @@
       <h2 class="text-[#5A91FF] text-xl font-bold m-2">Últimos 30 días</h2>
 
       <!-- Contenedor de tarjetas -->
-      <div class="w-full flex flex-wrap gap-4">
+      <div class="w-full flex flex-wrap justify-between gap-4">
         <CardData title="Aplicaciones" :camp="15" color="#3459F4">
           <template #icon>
             <svg
