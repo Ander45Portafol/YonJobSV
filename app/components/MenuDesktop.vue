@@ -25,12 +25,21 @@
               <NewspaperIcon class="size-6 shrink-0" aria-hidden="true" />
               <span class="">CV profesional</span>
             </NuxtLink>
+
+            <NuxtLink
+              to="/"
+              class="mt-2 bg-transparent text-[#D9EEF3] transform-gpu transition-transform duration-200 ease-in-out hover:scale-110 group flex gap-x-2 rounded-md p-3 text-sm/6 font-normal"
+            >
+              <BriefcaseIcon class="size-6 shrink-0" aria-hidden="true" />
+              <span class="">Aplicaciones</span>
+            </NuxtLink>
+
             <NuxtLink
               to="/"
               class="mt-2 bg-transparent text-[#D9EEF3] transform-gpu transition-transform duration-200 ease-in-out hover:scale-110 group flex gap-x-2 rounded-md p-3 text-sm/6 font-normal"
             >
               <DocumentTextIcon class="size-6 shrink-0" aria-hidden="true" />
-              <span class="">Experiencias</span>
+              <span class="">Portafolio</span>
             </NuxtLink>
           </li>
         </ul>
@@ -43,22 +52,28 @@
               to="/"
               class="mt-2 bg-transparent text-[#D9EEF3] transform-gpu transition-transform duration-200 ease-in-out hover:scale-110 group flex gap-x-2 rounded-md p-3 text-sm/6 font-normal"
             >
-              <CheckBadgeIcon class="size-6 shrink-0" aria-hidden="true" />
+              <GlobeAsiaAustraliaIcon
+                class="size-6 shrink-0"
+                aria-hidden="true"
+              />
               <span class="">Oportunidades</span>
             </NuxtLink>
             <NuxtLink
               to="/"
               class="mt-2 bg-transparent text-[#D9EEF3] transform-gpu transition-transform duration-200 ease-in-out hover:scale-110 group flex gap-x-2 rounded-md p-3 text-sm/6 font-normal"
             >
-              <LinkIcon class="size-6 shrink-0" aria-hidden="true" />
-              <span class="">Conexiones</span>
+              <ChatBubbleOvalLeftEllipsisIcon
+                class="size-6 shrink-0"
+                aria-hidden="true"
+              />
+              <span class="">Mensajes</span>
             </NuxtLink>
             <NuxtLink
               to="/"
               class="mt-2 bg-transparent text-[#D9EEF3] transform-gpu transition-transform duration-200 ease-in-out hover:scale-110 group flex gap-x-2 rounded-md p-3 text-sm/6 font-normal"
             >
-              <HandThumbUpIcon class="size-6 shrink-0" aria-hidden="true" />
-              <span class="">Recomendaciones</span>
+              <ChartBarSquareIcon class="size-6 shrink-0" aria-hidden="true" />
+              <span class="">Experiencias</span>
             </NuxtLink>
           </li>
         </ul>
@@ -80,9 +95,10 @@ import {
   HomeIcon,
   NewspaperIcon,
   DocumentTextIcon,
-  CheckBadgeIcon,
-  LinkIcon,
-  HandThumbUpIcon,
+  ChatBubbleOvalLeftEllipsisIcon,
+  ChartBarSquareIcon,
   Cog6ToothIcon,
+  BriefcaseIcon,
+  GlobeAsiaAustraliaIcon,
 } from "@heroicons/vue/20/solid";
 </script>
