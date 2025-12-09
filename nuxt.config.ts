@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import tailwindcss from "@tailwindcss/vite";
+import "@tailwindplus/elements";
 
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
@@ -20,5 +21,10 @@ export default defineNuxtConfig({
   css: ["~/assets/css/main.css"],
   vite: {
     plugins: [tailwindcss()],
+  },
+  vue: {
+    compilerOptions: {
+      isCustomElement: (tag) => tag.startsWith("el-"),
+    },
   },
 });

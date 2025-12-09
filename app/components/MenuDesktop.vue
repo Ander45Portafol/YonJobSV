@@ -49,7 +49,7 @@
         <ul role="list" class="-mx-2 mt-2 space-y-1">
           <li>
             <NuxtLink
-              to="/"
+              to="/opportunities"
               class="mt-2 bg-transparent text-[#D9EEF3] transform-gpu transition-transform duration-200 ease-in-out hover:scale-110 group flex gap-x-2 rounded-md p-3 text-sm/6 font-normal"
             >
               <GlobeAsiaAustraliaIcon

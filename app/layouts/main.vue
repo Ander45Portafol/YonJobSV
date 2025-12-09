@@ -196,6 +196,8 @@ import {
   Bars3Icon,
 } from "@heroicons/vue/20/solid";
 
+import "@tailwindplus/elements";
+
 const userNavigation = [
   { name: "Your profile", href: "#" },
   { name: "Sign out", href: "/login" },
