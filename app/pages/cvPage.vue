@@ -25,7 +25,7 @@
           <h5 class="font-bold text-lg text-[#3459F4]">Sugerencias</h5>
         </div>
         <div
-          class="bg-white border border-[#5A91FF] rounded-md p-4 max-w-xl mx-auto mt-6"
+          class="bg-white border border-[#5A91FF] rounded-md p-4 max-w-xl mx-auto mt-6 h-64"
         >
           <ul class="space-y-2">
             <li
