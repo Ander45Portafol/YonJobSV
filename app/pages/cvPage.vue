@@ -7,26 +7,26 @@
     <div class="flex justify-end">
       <button
         type="button"
-        class="rounded-full bg-[#0E3266] px-3.5 py-2 text-sm font-semibold text-white hover:bg-[#5A91FF] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#5A91FF]"
+        class="rounded-lg bg-[#0E3266] px-6 py-2 text-sm font-semibold text-white hover:bg-[#5A91FF] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#5A91FF]"
       >
         Crear cv
       </button>
       <button
         type="button"
-        class="rounded-full ml-2 bg-[#0E3266] px-3.5 py-2 text-sm font-semibold text-white hover:bg-[#5A91FF] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#5A91FF]"
+        class="rounded-lg ml-2 bg-[#0E3266] px-6 py-2 text-sm font-semibold text-white hover:bg-[#5A91FF] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#5A91FF]"
       >
         Analizar
       </button>
     </div>
-    <div class="grid grid-cols-2">
+    <div class="grid [grid-template-columns:2fr_1fr] gap-4">
       <ResultsTable />
       <div class="gap-4 ml-2">
-        <div class="ms-4">
-          <h5 class="font-bold text-lg text-[#3459F4]">Sugerencias</h5>
-        </div>
         <div
           class="bg-white border border-[#5A91FF] rounded-md p-4 max-w-xl mx-auto mt-6 h-64"
         >
+          <div class="m-2">
+            <h5 class="font-bold text-lg text-[#3459F4]">Sugerencias</h5>
+          </div>
           <ul class="space-y-2">
             <li
               v-for="(item, index) in sugerencias"

@@ -4,19 +4,24 @@
   <div class="w-full flex flex-col gap-4">
     <div class="ms-4">
       <h5 class="font-bold text-2xl text-[#3459F4]">Oportunidades</h5>
-      <h6>Pasantías</h6>
+      <h6 class="text-[#45C567]">Pasantías</h6>
     </div>
     <div class="flex flex-row">
-      <label for="email-address" class="sr-only">Email address</label>
-      <input
-        id="buscar-pasantia"
-        type="pasantia"
-        name="pasantia"
-        required
-        placeholder="Buscar pasantía"
-        autocomplete="email"
-        class="min-w-0 flex-auto rounded-md bg-[#E6EAEF] px-3.5 py-2 text-base text-[#5A91FF] outline-1 -outline-offset-1 outline-[#E6EAEF] placeholder:text-[#5A91FF] focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500 sm:text-sm/6"
-      />
+      <div class="mt-2 grid grid-cols-1 w-full">
+        <input
+          id="buscar-pasantia"
+          type="pasantia"
+          name="pasantia"
+          required
+          placeholder="Buscar pasantía"
+          class="block w-full min-w-0 flex-auto rounded-md bg-[#E6EAEF] px-3.5 py-2 text-base text-[#5A91FF] outline-1 -outline-offset-1 outline-[#E6EAEF] placeholder:text-[#5A91FF] focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500 sm:text-sm/6"
+        />
+        <MagnifyingGlassIcon
+          class="pointer-events-none col-start-1 row-start-1 ml-3 size-5 self-center text-gray-500 sm:size-4"
+          aria-hidden="true"
+        />
+      </div>
+
       <el-select
         id="select"
         name="selected"
@@ -126,6 +131,7 @@
     </div>
     <div class="w-full flex flex row">
       <JobCard
+        image="./facebook.jpg"
         company="Facebook"
         date="20/11/2025"
         title="Analista de datos"
@@ -137,6 +143,7 @@
 
 <script setup>
 import JobCard from "~/components/JobCard.vue";
+import { MagnifyingGlassIcon } from "@heroicons/vue/20/solid";
 
 definePageMeta({
   layout: "main",
