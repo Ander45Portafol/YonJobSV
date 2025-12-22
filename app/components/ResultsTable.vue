@@ -15,19 +15,19 @@
               <tr>
                 <th
                   scope="col"
-                  class="py-3.5 pr-3 pl-4 text-left text-sm font-semibold text-[#051E51] sm:pl-6 lg:pl-8"
+                  class="py-3.5 pr-3 pl-4 text-left text-sm font-bold text-[#051E51] sm:pl-6 lg:pl-8"
                 >
                   N
                 </th>
                 <th
                   scope="col"
-                  class="px-2 py-3.5 text-left text-sm font-semibold text-[#051E51]"
+                  class="px-2 py-3.5 text-left text-sm font-bold text-[#051E51]"
                 >
                   Titulo
                 </th>
                 <th
                   scope="col"
-                  class="px-3 py-3.5 text-left text-sm font-semibold text-[#051E51]"
+                  class="px-3 py-3.5 text-left text-sm font-bold text-[#051E51]"
                 >
                   Descripción
                 </th>

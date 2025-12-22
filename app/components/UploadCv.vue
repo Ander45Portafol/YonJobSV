@@ -5,7 +5,7 @@
       class="border-2 border-dashed border-[#3459F4] rounded-lg flex flex-col items-center justify-center p-8 cursor-pointer hover:bg-blue-50 transition"
       @click="triggerUpload"
     >
-      <p class="text-sm text-[#3459F4]">Subir CV</p>
+      <p class="text-lg font-medium text-[#3459F4]">Subir CV</p>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"

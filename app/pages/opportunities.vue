@@ -7,19 +7,22 @@
       <h6 class="text-[#45C567]">Pasantías</h6>
     </div>
     <div class="flex flex-row">
-      <div class="mt-2 grid grid-cols-1 w-full">
-        <input
-          id="buscar-pasantia"
-          type="pasantia"
-          name="pasantia"
-          required
-          placeholder="Buscar pasantía"
-          class="block w-full min-w-0 flex-auto rounded-md bg-[#E6EAEF] px-3.5 py-2 text-base text-[#5A91FF] outline-1 -outline-offset-1 outline-[#E6EAEF] placeholder:text-[#5A91FF] focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500 sm:text-sm/6"
-        />
-        <MagnifyingGlassIcon
-          class="pointer-events-none col-start-1 row-start-1 ml-3 size-5 self-center text-gray-500 sm:size-4"
-          aria-hidden="true"
-        />
+      <div class="w-full mt-2">
+        <div class="relative">
+          <MagnifyingGlassIcon
+            class="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-[#5A91FF] pointer-events-none"
+            aria-hidden="true"
+          />
+
+          <input
+            id="buscar-pasantia"
+            type="text"
+            name="pasantia"
+            required
+            placeholder="Buscar pasantía"
+            class="w-full rounded-md bg-[#E6EAEF] pl-10 pr-3 py-2 text-base text-[#5A91FF] placeholder:text-[#5A91FF] outline outline-1 outline-[#E6EAEF] focus:outline-2 focus:outline-indigo-500 sm:text-sm"
+          />
+        </div>
       </div>
 
       <el-select
@@ -143,7 +146,10 @@
 
 <script setup>
 import JobCard from "~/components/JobCard.vue";
-import { MagnifyingGlassIcon } from "@heroicons/vue/20/solid";
+import {
+  MagnifyingGlassCircleIcon,
+  MagnifyingGlassIcon,
+} from "@heroicons/vue/20/solid";
 
 definePageMeta({
   layout: "main",
