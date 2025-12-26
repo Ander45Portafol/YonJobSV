@@ -6,15 +6,21 @@
         Revisa las empresas donde realizo las pasantías
       </h6>
     </div>
+    <div class="w-full mt-4">
+      <ExperienceCard
+        namee="Ricaldone"
+        role="programador"
+        startDate="20/12/2025"
+        endDate="07/01/2026"
+        comments="Fugiat ipsum ipsum deserunt culpa aute sint do nostrud anim incididunt cillum culpa consequat. Excepteur qui ipsum aliquip consequat sint. Sit id mollit nulla mollit nostrud in ea officia proident. Irure nostrud pariatur mollit ad adipisicing reprehenderit deserunt qui eu."
+        grade="4"
+      />
+    </div>
   </div>
 </template>
 
 <script setup>
-import JobCard from "~/components/JobCard.vue";
-import {
-  MagnifyingGlassCircleIcon,
-  MagnifyingGlassIcon,
-} from "@heroicons/vue/20/solid";
+import ExperienceCard from "~/components/ExperienceCard.vue";
 
 definePageMeta({
   layout: "main",
