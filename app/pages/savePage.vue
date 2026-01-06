@@ -113,7 +113,7 @@
         </el-select>
       </div>
     </div>
-    <div class="w-full flex flex row">
+    <div class="w-full flex flex row ms-4">
       <JobCard
         image="./facebook.jpg"
         company="Facebook"
